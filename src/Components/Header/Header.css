@@ -1,0 +1,45 @@
+.logo p img {
+	max-width: 40px;
+}
+
+.menu-icon span {
+	cursor: pointer;
+	height: 3px;
+	width: 40px;
+}
+
+.main-menu li .menu-link:hover,
+.menu-link:hover {
+	background-color: #EF6445;
+}
+
+.user-img img {
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+
+@media (max-width: 1199px) {
+	.main-menu {
+		padding: 15px;
+		background-color: #1E2B4A;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		z-index: 99999;
+	}
+
+	.main-menu li .menu-link:hover,
+	.menu-link:hover {
+		background-color: #EF6445;
+	}
+
+	.log-out button {
+		width: 100% !important;
+	}
+
+	.user .user-info h4 {
+		color: #FFFFFF;
+	}
+}

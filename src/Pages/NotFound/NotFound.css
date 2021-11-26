@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+#notfound {
+	position: relative;
+	height: 100vh;
+	background-color: #222;
+}
+
+#notfound .notfound {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.notfound {
+	max-width: 46rem;
+	width: 100%;
+	line-height: 1.4;
+}
+
+.notfound .notfound-404 {
+	height: 15.8rem;
+	line-height: 15.3rem;
+}
+
+.notfound .notfound-404 h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 15rem;
+	letter-spacing: 1rem;
+	margin: 0;
+	color: #222;
+	text-shadow: 2px 2px 0px #c9c9c9, -2px -2px 0px #c9c9c9;
+}
+
+.notfound .notfound-404 h1>span {
+	text-shadow: 2px 2px 0px #ed502e, -2px -2px 0px #ed502e, 0px 0px 8px #ed502e;
+}
+
+.notfound p {
+	margin-top: 0;
+	margin-bottom: 2.5rem;
+}
+
+.notfound .link {
+	font-family: 'Josefin Sans', sans-serif;
+	background: transparent;
+	border: 2px solid #ed502e;
+	padding: 1rem 2.5rem;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+	-moz-transition: 0.2s all;
+	-ms-transition: 0.2s all;
+	-o-transition: 0.2s all;
+}
+
+.notfound .link:hover {
+	border-color: #FFFFFF;
+}
+
+@media (max-width: 575px) {
+	.notfound .notfound-404 {
+		height: 9rem;
+		line-height: 12.2rem;
+	}
+
+	.notfound .notfound-404 h1 {
+		font-size: 8rem;
+	}
+}
